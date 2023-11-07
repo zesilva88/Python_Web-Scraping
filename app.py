@@ -6,7 +6,7 @@ app = Flask(__name__)
 # route para a homepage
 @app.get('/')
 def index():
-    return f"PL 01 Gonçalo Iglésias, José Silva, André Amorim"
+    return f"PL 01 José Silva"
 
 # retornar todos os registos da BD em formato JSON
 @app.get('/view/iphones') 
